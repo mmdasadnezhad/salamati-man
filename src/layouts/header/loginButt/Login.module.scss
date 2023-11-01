@@ -1,0 +1,18 @@
+.button{
+    margin: 31px 60px;
+    border: none;
+    background: linear-gradient(0deg, #23A868 -13.4%, #5BCE97 113.4%);
+    color: white;
+    padding: 0;
+    height: 45px;
+    width: 160px;
+    border-radius: 8px;
+    box-shadow: 0 13px 18px -14px black;
+    .enter{
+        border-left: 2px solid white;
+        padding: 0 5px;
+    }
+    .log{
+        padding: 0 5px;
+    }
+}

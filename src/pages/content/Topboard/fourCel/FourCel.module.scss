@@ -1,0 +1,17 @@
+.parent4{
+    max-width: 440px;
+    .cel1{
+        background-color: #23A868;
+    }
+    .child4{
+        width: 95px;
+        height: 95px;
+        margin: 1.05rem;
+        border-radius: 11.12px;
+        box-shadow:  3.17757px 3.17757px 11.91588px 0px rgba(0, 0, 0, 0.09);
+        .chart{
+            width: 40px;
+            height: 40px;
+        }
+    }
+}

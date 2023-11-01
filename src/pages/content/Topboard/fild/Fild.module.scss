@@ -1,0 +1,18 @@
+.parentdiv{
+    border-radius: 11.121px;
+    background: #FCFCFC;
+    box-shadow: 3.17757px 3.17757px 11.91588px 0px rgba(0, 0, 0, 0.09);
+    .includediv{
+        background-color: #ECECEC;
+        border-radius: 6px;
+        .inputes{
+            background-color: transparent;
+        }
+        .in1{
+            max-width: 325px;
+        }
+        .in2{
+            max-width: 85px;
+        }
+    }
+}

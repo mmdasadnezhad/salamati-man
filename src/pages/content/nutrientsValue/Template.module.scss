@@ -1,0 +1,33 @@
+.parent{
+    max-width: 524px;;
+    .above{
+        position: relative;
+        padding: 2rem;
+        .childs{
+            position: absolute;
+        }
+        .ch1{
+            right: 0.5rem;
+        }
+        .ch2{
+            right: 6rem;
+        }
+        .ch3{
+            left: 0;
+        }
+    }
+    .outer{
+        height: 10px;
+        border-radius: 5px;
+        background-color: #f1f1f1;
+        position: relative;
+        .inner{
+            width: 61px;
+            height: 10px;
+            border-radius: 5px;
+            background-color: #1faf4b;
+            display: inline-block;
+            position: absolute;
+        }
+    }
+}

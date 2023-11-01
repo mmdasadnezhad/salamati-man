@@ -1,0 +1,15 @@
+.ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: auto 2rem;
+    color: #636363;
+    .li{
+        padding: 0 1rem;
+        transition-duration: 0.3s;
+        cursor: pointer;
+    }
+    .li:hover{
+        color: #23A868;
+        transition-duration: 0.3s;
+    }
+}
