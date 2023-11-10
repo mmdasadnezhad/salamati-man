@@ -1,9 +1,11 @@
 import Slider from "./Slider";
+import {Swiper , SwiperSlide} from "swiper/react"
 import style from "./BottomSection.module.scss";
 import kahoo from "../../../assets/kahoo.svg";
 import kalam from "../../../assets/kalam.svg";
 import olvye from "../../../assets/olvye.svg";
 import veget from "../../../assets/veget.svg";
+import { Form } from "react-bootstrap";
 
 const BottomSection = () => {
   return (

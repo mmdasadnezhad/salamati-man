@@ -1,15 +1,16 @@
 import style from "./MiddleMenu.module.scss";
+import Dropdown from 'react-bootstrap/Dropdown';
 
 const MiddleMenu = () => {
   return (
-    <div className={`w-100 d-lg-none ${style.wrapper}`}>
-      <div className={`row ${style.fild}`}>
+    <div className={`w-100 container-fluid d-lg-none ${style.wrapper}`}>
+      <div className={`row ms-4 me-4 ${style.fild}`}>
         <input
           className={`col-7 border-0 bg-transparent p-2`}
           placeholder="مقدار"
         ></input>
         <input
-          className={`col-5 border-0 text-center bg-transparent p-2`}
+          className={`col-5 border-0 border-end text-center bg-transparent p-2`}
           placeholder="گرم"
         ></input>
       </div>
@@ -95,7 +96,7 @@ const MiddleMenu = () => {
               </g>
             </svg>
           </span>
-          <p>منو</p>
+          <p>پروفایل</p>
         </div>
       </div>
     </div>
@@ -103,3 +104,6 @@ const MiddleMenu = () => {
 };
 
 export default MiddleMenu;
+
+
+

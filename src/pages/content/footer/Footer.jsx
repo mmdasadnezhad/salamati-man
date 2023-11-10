@@ -7,6 +7,7 @@ import telegram from "../../../assets/telegram.svg";
 import insta from "../../../assets/instagram.svg";
 import youtube from "../../../assets/youtube.svg";
 import aparat from "../../../assets/aparat.svg";
+import Transition, { transitionPropTypes } from "rsuite/esm/Animation/Transition";
 
 const Footer = () => {
   return (
@@ -32,37 +33,37 @@ const Footer = () => {
       <div>
         <div>
           <h3 className="text-success text-xl-center m-3 m-xl-5">دسترسی سریع</h3>
-          <ul className="d-xl-flex justify-content-evenly fs-5">
-            <li>صفحه اصلی</li>
-            <li>مجله سلامتی من</li>
-            <li>مجله آشپزی من</li>
+          <ul className="d-xl-flex justify-content-evenly fs-5 text-warning">
+            <li><span className={`text-black ${style.transform}`}>صفحه اصلی</span></li>
+            <li><span className={`text-black ${style.transform}`}>مجله سلامتی من</span></li>
+            <li><span className={`text-black ${style.transform}`}>مجله آشپزی من</span></li>
           </ul>
         </div>
         <div>
           <h3 className="text-success text-xl-center m-3 m-xl-5">پیوندها</h3>
-          <ul className="d-xl-flex justify-content-evenly fs-5">
-            <li>رژیم لاغری سلامتی من</li>
-            <li>اپلیکیشن سلامتی من</li>
-            <li>خرید رژیم</li>
+          <ul className="d-xl-flex justify-content-evenly fs-5 text-warning">
+            <li><span className={`text-black ${style.transform}`}>رژیم لاغری سلامتی من</span></li>
+            <li><span className={`text-black ${style.transform}`}>اپلیکیشن سلامتی من</span></li>
+            <li><span className={`text-black ${style.transform}`}>خرید رژیم</span></li>
           </ul>
         </div>
       </div>
-      <div className={`row m-5 ${style.trust}`}>
-        <span className={`col-4 text-center ${style.spans}`}>
+      <div className={`m-5 text-center d-flex flex-row flex-wrap justify-content-evenly ${style.trust}`}>
+        <span className={`text-center m-2 ${style.spans}`}>
           <img className={`${style.trustImg}`} src={enamad} alt="enamad" />
         </span>
-        <span className={`col-4 text-center ${style.spans}`}>
+        <span className={`text-center m-2 ${style.spans}`}>
           <img className={`${style.trustImg}`} src={sabt} alt="sabt" />
         </span>
-        <span className={`col-4 text-center ${style.spans}`}>
+        <span className={`text-center m-2 ${style.spans}`}>
           <img className={`${style.trustImg}`} src={arm} alt="arm" />
         </span>
       </div>
-      <div className={`d-flex justify-content-evenly m-4 ${style.social}`}>
-        <span className={`${style.svgspan}`}><img className={`${style.svgs}`} src={telegram} alt="telegram" /></span>
-        <span className={`${style.svgspan}`}><img className={`${style.svgs}`} src={insta} alt="insta" /></span>
-        <span className={`${style.svgspan}`}><img className={`${style.svgs}`} src={youtube} alt="youtube" /></span>
-        <span className={`${style.svgspan}`}><img className={`${style.svgs}`} src={aparat} alt="aparat" /></span>
+      <div className={`d-flex justify-content-evenly p-3 ${style.social}`}>
+        <span title="کانال تلگرام" className={`${style.svgspan}`}><img className={`${style.svgs}`} src={telegram} alt="telegram" /></span>
+        <span title="صفحه اینستاگرام" className={`${style.svgspan}`}><img className={`${style.svgs}`} src={insta} alt="insta" /></span>
+        <span title="کانال یوتیوب" className={`${style.svgspan}`}><img className={`${style.svgs}`} src={youtube} alt="youtube" /></span>
+        <span title="صفحه ما در آپارات" className={`${style.svgspan}`}><img className={`${style.svgs}`} src={aparat} alt="aparat" /></span>
       </div>
     </div>
   );

@@ -6,8 +6,8 @@ import walk from "../../../assets/walk.png"
 import swim from "../../../assets/swimming.png"
 const MiddlePage = () => {
   return (
-    <div className="">
-      <p className="fs-5 text-center text-secondary">
+    <div className="mb-4">
+      <p className="fs-4 mt-3 text-center text-secondary">
         با چند دقیقه ورزش می توانم کالری موجود در ۱۰۰ گرم سالاد سزار را بسوزانم؟
       </p>
       <div className="d-flex align-items-center">
@@ -22,7 +22,7 @@ const MiddlePage = () => {
         <Cards type = {'دوچرخه سواری'} time = {37} icon = {swim}/>
         </div>
       </div>
-      <p className="d-xl-none d-block text-secondary text-center">
+      <p className="d-xl-none d-block text-secondary text-center fs-5">
           ** محاسبه شده برای یک خانم ۲۵ ساله بـا قد ۱۷۰ سانتی متر و وزن ۶۵
           کیلوگرم
         </p>
